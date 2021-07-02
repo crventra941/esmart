@@ -35,7 +35,7 @@ export const sendMail = async (data) => {
   urlencoded.append('to', 'christian@girasolo.com');
   urlencoded.append('message', mailTemplate);
   urlencoded.append('subject', 'Contacto merexmex');
-  urlencoded.append('host', 'mail.zoho.com');
+  urlencoded.append('host', 'imappro.zoho.com');
   urlencoded.append('port', '993');
 
   const requestOptions = {
