@@ -1,0 +1,21 @@
+.home-container {
+    background-image: url('../../../../assets/img/home/home.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+.home-container .overlay .text-title-h1 {
+    margin-bottom: 5%;
+}
+
+@media (max-width: 999px) {
+    .home-container .overlay {
+        align-items: flex-start;
+        padding-top: 120px;
+    }
+}

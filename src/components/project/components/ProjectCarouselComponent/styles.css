@@ -1,0 +1,40 @@
+.carousel-info-container {
+    height: auto;
+    margin-bottom: 8%;
+}
+
+.carousel-info-container .info-text-flex {
+    margin-bottom: 5%;
+}
+
+.carousel-info-container .info-text-flex .text-container,
+.carousel-info-container .info-text-flex .coutn-img-carousel-container {
+    width: 50%;
+}
+
+.coutn-img-carousel-container {
+    text-align: right;
+}
+
+.img-slider img {
+    width: 100%;
+}
+
+.react-multiple-carousel__arrow{
+    background: #00000080;
+}
+
+@media (max-width:999px) {
+    .carousel-info-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .carousel-info-container .text-title-h2 {
+        text-align: left;
+    }
+
+    .carousel-info-container .coutn-img-carousel-container .text-title-h2 {
+        text-align: center;
+    }
+}

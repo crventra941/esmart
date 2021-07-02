@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "nombre": "Estadio Juán N. López",
+        "imagen": "CordilleraResidencial.jpg"
+    },
+    {
+        "id": "2",
+        "nombre": "Estadio Juán N. López",
+        "imagen": "CorporativoCordillera.jpeg"
+    },
+    {
+        "id": "3",
+        "nombre": "Estadio Juán N. López",
+        "imagen": "LandmarkGrandview.jpg"
+    }
+]

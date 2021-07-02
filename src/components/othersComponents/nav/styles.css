@@ -1,0 +1,39 @@
+.navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+    transition: 0.5s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+@media (max-width:999px) {
+    .navbar {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #000;
+    }
+}
+
+@media (min-width: 1000px) {
+    .bg-light {
+        background-color: transparent !important;
+    }
+
+    .bg-gray {
+        background-color: #1C1C1E4D !important;
+    }
+}

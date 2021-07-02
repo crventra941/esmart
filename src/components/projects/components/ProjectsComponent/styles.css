@@ -1,0 +1,47 @@
+.projects-container {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+.projects-container .container {
+    z-index: 2;
+}
+
+.contador-container {
+    font-weight: 600;
+}
+
+.projects-container .text-title-h1 {
+    margin-top: 5%;
+}
+
+.projects-container .btn-background-t {
+    border-color: #ffffff77;
+    transition: 0.5s;
+}
+
+.projects-container .btn-background-t:hover {
+    opacity: 1;
+    color: #F5F5F5;
+    border-color: #F5F5F5;
+}
+
+
+@media (max-width: 999px) {
+    .projects-container .text-title-h1 {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 5%;
+    }
+
+    .demo {
+        position: absolute;
+        justify-content: center;
+        width: 100%;
+    }
+}

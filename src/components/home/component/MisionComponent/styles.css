@@ -1,0 +1,35 @@
+.mision-container {
+    background-color: #F5F5F5;
+    height: 90vh;
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+.mision-container .display-grid-left .text-title-h3,
+.mision-container .display-grid-left .text-title-h2,
+.mision-container .display-grid-left .text-p {
+    height: 60px;
+}
+
+.mision-container .display-grid-left .text-title-h3 {
+    display: flex;
+    align-items: center;
+}
+
+.btn-mision-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+@media (max-width: 999px) {
+    .mision-container {
+        height: 90vh;
+    }
+
+    .mision-container .display-grid-left .text-title-h3 {
+        justify-content: center;
+    }
+}

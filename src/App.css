@@ -1,0 +1,293 @@
+@font-face {
+  font-family: "Icons";
+  src: url("./assets/font/IconosFuenteEsmart.otf");
+}
+
+@font-face {
+  font-family: "Criteria-CF-Extra-Light";
+  src: url("./assets/font/Criteria-CF-Extra-Light.otf");
+}
+
+body {
+  font-family: "Criteria-CF-Extra-Light";
+}
+
+
+.App {
+  text-align: center;
+}
+
+.color-text-white {
+  color: #fff;
+}
+
+.img-nav {
+  width: 100px;
+}
+
+.text-title-h1 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.text-title-h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.text-title-h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.text-p {
+  font-size: 18px;
+}
+
+.text-p-small {
+  font-size: 14px;
+}
+
+.text-p-weight {
+  font-weight: 600;
+}
+
+.text-p-m-r {
+  margin-right: 30px;
+}
+
+.text-p-p-l {
+  padding-left: 30px;
+}
+
+.btn-small {
+  width: 150px;
+  height: 57px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  font-size: 14px;
+}
+
+.btn-medium {
+  width: 200px;
+  height: 57px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  font-size: 14px;
+}
+
+.btn-large {
+  width: 300px;
+  height: 57px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  font-size: 14px;
+}
+
+.btn-background-blue {
+  background-color: #265BDF;
+}
+
+.btn-background-t {
+  background-color: transparent;
+  border: 2px #FFFFFF solid;
+}
+
+.img-c {
+  width: 422px;
+  height: 421px;
+  border-radius: 100%;
+}
+
+.display-grid-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display-grid-left {
+  height: 100%;
+  display: grid;
+  align-items: center;
+  text-align: left;
+  justify-content: left;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.226);
+  display: grid;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+}
+
+.info-text-flex {
+  display: flex;
+  align-items: center;
+}
+
+span {
+  color: #265BDF
+}
+
+
+/* ================================================0000 */
+/* ================================================0000 */
+
+#slider-container {
+  margin: auto;
+  width: 100%;
+  max-width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+#slider {
+  display: flex;
+  width: 300%;
+}
+
+section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+#btn-prev,
+#btn-next {
+  width: 52px;
+  height: 52px;
+  background-color: transparent;
+  border: 4px solid #ffffff9d;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff9d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  font-size: 20px;
+  z-index: 2;
+}
+
+#btn-prev:hover,
+#btn-next:hover {
+  opacity: 1;
+  color: #F5F5F5;
+  border-color: #F5F5F5;
+}
+
+#btn-prev {
+  left: 0vw;
+}
+
+#btn-next {
+  right: 0vw;
+}
+
+
+@media (max-width: 999px) {
+  .margin-movil {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .text-title-h1 {
+    font-size: 28px;
+  }
+
+  .display-grid-left {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .img-c {
+    width: 257px;
+    height: 257px;
+  }
+
+  .text-title-h3 {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .text-title-h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .text-p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .btn-small {
+    width: 275px;
+    height: 42px;
+    font-size: 10px;
+  }
+
+  .btn-medium {
+    width: 275px;
+    height: 42px;
+    font-size: 10px;
+  }
+
+  .btn-large {
+    width: 275px;
+    height: 42px;
+    font-size: 10px;
+  }
+
+  span {
+    display: none;
+  }
+
+  .footer-buttons {
+    display: grid;
+    justify-content: center;
+  }
+
+  #btn-prev,
+  #btn-next {
+    width: 40px;
+    height: 40px;
+    font-size: 19px;
+    border: 2px solid #ffffff9d;
+  }
+}

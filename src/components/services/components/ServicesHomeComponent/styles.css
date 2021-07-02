@@ -1,0 +1,32 @@
+.services-container {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+.services-container .text-title-h1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.services-container .subnav-nombre-service {
+    display: none;
+}
+
+@media (max-width: 999px) {
+    .services-container .overlay {
+        align-items: flex-start;
+        padding-top: 120px;
+    }
+}
+
+@media(min-width: 1000px) {
+    .services-container .subnav-container {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}

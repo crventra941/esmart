@@ -1,0 +1,118 @@
+[
+    {
+        "id": "1",
+        "nombre": "Invernaderos",
+        "imagen": "Invernaderos.jpg",
+        "hectareas": 200,
+        "titulo": "Tecnología aplicada <br /> en sus cultivos.",
+        "slug": "hectáreas construidas",
+        "descripcion": "Nos encargamos de la construcción, equipamiento y desarrollo de proyectos de invernaderos, que van desde el armado del Invernadero hasta la construcción de infraestructura interna del proyecto.",
+        "productos": [
+            {
+                "idProducto": "1",
+                "nombre": "Cimentación",
+                "descripcion": "Armado de invernaderos con la mejor calidad en materiales y mano de obra.",
+                "imagen": "Invernaderos.jpg"
+            },
+            {
+                "idProducto": "2",
+                "nombre": "Sistemas eléctricos",
+                "descripcion": "Sistemas eléctricos, de riego, calefacción, CO2: supervisión e Instalación de los sistemas de tecnología y automatización del Invernadero.",
+                "imagen": "Arquitectura.jpg"
+            },
+            {
+                "idProducto": "3",
+                "nombre": "Infraestructura interna del proyecto",
+                "descripcion": "Construcción de Empaques, Oficinas, Comedores, Baños, Canaletas pluviales, Vialidades internas.",
+                "imagen": "terracerias.jpg"
+            },
+            {
+                "idProducto": "4",
+                "nombre": "Mantenimiento de Invernaderos",
+                "descripcion": "Cambio de plásticos, mallas, limpieza, de invernaderos existentes.",
+                "imagen": "ObraCivil.jpg"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "nombre": "Obra civil e industrial",
+        "imagen": "ObraCivil.jpg",
+        "hectareas": null,
+        "titulo": "",
+        "slug": "",
+        "descripcion": "A lo largo de los años hemos construido diversas obras de gran relevancia en La Piedad y en la región. Naves Industriales, Estadio de futbol profesional Juan N. López, Hotel Holliday Inn La Piedad, CEDIS Para BIMBO en toda la región Occidente - Bajío",
+        "productos": [
+            {
+                "idProducto": "1",
+                "nombre": "Construcción de Naves Industriales.",
+                "descripcion": "",
+                "imagen": "Invernaderos.jpg"
+            },
+            {
+                "idProducto": "2",
+                "nombre": "Obra Civil y Construcción en general.",
+                "descripcion": "",
+                "imagen": "Arquitectura.jpg"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "nombre": "Terracerías y urbanizaciones",
+        "imagen": "terracerias.jpg",
+        "hectareas": 300,
+        "titulo": "",
+        "slug": "hectáreas",
+        "descripcion": "Contamos con la experiencia y la maquinaria necesaria para el desarrollo de proyectos de terracerías y urbanizaciones.<br/><br/>Construcción y desarrollo de proyectos de urbanización, Fraccionamientos residenciales y de interés social, En nuestro currículo aparecen los fraccionamientos más importantes dentro de la ciudad.",
+        "productos": [
+            {
+                "idProducto": "1",
+                "nombre": "Fraccionamientos Residenciales:",
+                "descripcion": "Proyección y construcción fraccionamientos residenciales. Participamos en la construcción de los fraccionamientos con más crecimiento en la ciudad Las Margaritas I y Las Margaritas II.",
+                "imagen": "Invernaderos.jpg"
+            },
+            {
+                "idProducto": "2",
+                "nombre": "Interés social",
+                "descripcion": " Construcción de fraccionamientos para Infonavit. Construimos en diversos puntos de la ciudad y la región, Mas de 2500 viviendas construidas.",
+                "imagen": "Arquitectura.jpg"
+            },
+            {
+                "idProducto": "3",
+                "nombre": "Terracerías",
+                "descripcion": "Trabajos de movimiento de tierras, nivelación y compactación para la construcción de todo tipo de proyectos.",
+                "imagen": "terracerias.jpg"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "nombre": "Arquitectura",
+        "imagen": "Arquitectura.jpg",
+        "hectareas": null,
+        "titulo": "",
+        "slug": "",
+        "descripcion": "Llevamos a la realidad tus ideas y necesidades para lograr la casa de tus sueños. Durante estos años se han construido gran cantidad de proyectos siempre buscando llevar a cabo la visión y lograr satisfacción del cliente.",
+        "productos": [
+            {
+                "idProducto": "1",
+                "nombre": "Proyectos",
+                "descripcion": " Realizamos el anteproyecto, proyecto básico y proyecto ejecutivo de la obra que necesites. (Casa habitación, Oficinas, Plazas comerciales)",
+                "imagen": "Invernaderos.jpg"
+            },
+            {
+                "idProducto": "2",
+                "nombre": "Construcción",
+                "descripcion": "Ejecutamos el proyecto y materializamos las ideas plasmadas en el.",
+                "imagen": "Arquitectura.jpg"
+            },
+            {
+                "idProducto": "3",
+                "nombre": "",
+                "descripcion": "Supervisión y Administración",
+                "imagen": "terracerias.jpg"
+            }
+        ]
+    }
+]

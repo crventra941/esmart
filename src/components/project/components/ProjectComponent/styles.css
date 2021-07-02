@@ -1,0 +1,113 @@
+.project-container {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+
+.proyecto-nombre-container {
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 180px;
+}
+
+.proyecto-nombre-container div:first-child {
+    margin-bottom: 5%;
+}
+
+.siguiente-proyecto-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    width: 25%;
+    bottom: 60px;
+    right: 30px;
+}
+
+.project-info-container {
+    height: 60vh;
+    background-size: cover;
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+.capacidad-palcos {
+    display: flex;
+    align-items: center;
+}
+
+.capacidad-container,
+.palcos-container {
+    width: 50%;
+}
+
+.project-info-container .text-p-small {
+    text-transform: uppercase;
+}
+
+.project-info-container .construction-date {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+@media (max-width: 999px) {
+    .proyecto-nombre-container {
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .siguiente-proyecto-container {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        bottom: 60px;
+        right: unset;
+    }
+
+    .siguiente-proyecto-container .text-p-small {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .btn-next-proyect-container {
+        height: 11vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .siguiente-proyecto-container #btn-next {
+        right: unset;
+        top: 65%;
+    }
+
+    .project-info-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .customer-date-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .construction-date,
+    .customer {
+        width: 50%;
+        text-align: left;
+    }
+
+    .project-info-container .text-p,
+    .project-info-container .text-title-h2,
+    .project-info-container .text-p-small {
+        text-align: left;
+        margin-bottom: 5%;
+    }
+}

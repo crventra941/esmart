@@ -1,0 +1,40 @@
+input {
+    border: none !important;
+    background-color: transparent !important;
+    border-radius: 0% !important;
+    margin-bottom: 15px;
+}
+
+textarea {
+    border: none !important;
+    background-color: transparent !important;
+    border-radius: 0% !important;
+    margin-bottom: 15px;
+}
+
+label {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form-row {
+    display: flex;
+}
+
+@media(max-width: 999px) {
+    form {
+        margin-top: 60px;
+    }
+
+    .form-row {
+        display: block;
+    }
+
+
+    .button-form-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
